@@ -5,7 +5,6 @@ body {
     --text-header: #444444;
     --text-body: #0A0708;
     --link: #3a5d79;
-    --link-visited: #41586b;
     --link-hover: #082d4b;
     --link-active: #0a6cbd;
 
@@ -40,10 +39,6 @@ h1 {
 
 a {
     color: var(--link);
-
-    &:visited {
-        /*color: var(--link-visited);*/
-    }
 
     &:hover {
         color: var(--link-hover);
